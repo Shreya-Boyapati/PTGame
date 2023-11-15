@@ -65,7 +65,7 @@ object UserRegistry {
        * player's turn.
        */
       case MakeMove(node, replyTo) =>
-        replyTo ! ActionPerformed("Move attempted!")
+        replyTo ! ActionPerformed(s"Move to node $node attempted!")
         logger.info(s"Move made to node $node")
 
         if (turn) {
