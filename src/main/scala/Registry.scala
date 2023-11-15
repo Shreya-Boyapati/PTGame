@@ -31,6 +31,7 @@ object UserRegistry {
     logger.info("Nodes adjacent to policeman are " + secondShard.adjacentNodes(pos0))
     logger.info("Nodes adjacent to thief are " + secondShard.adjacentNodes(pos1))
     logger.info(s"Nodes ${simrank.toArray.mkString("", ", ", "")} have been modified.")
+    logger.info(s"Nodes ${valuable.mkString("", ", ", "")} contain valuable data.")
 
     if (firstShard.adjacentNodes(pos0).isEmpty) {
       logger.info("Policeman is stuck. Game over.")
