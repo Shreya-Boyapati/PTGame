@@ -1,7 +1,1 @@
-Student: Shreya Boyapati
 
-=> No AWS deployment/Video = -0.5%
-
-Good solution. I would have liked to see this deployed on AWS to net you full points.
-
-Final Grade: 19.5%
